@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{F4D059CD-FF37-1884-892C-CB895CA72D82}</ProjectGuid>
+    <ProjectGuid>{B784911F-FF46-AAE2-76F3-BF6C817A02A2}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -64,6 +64,8 @@
     <Compile Include="Assets\Scripts\Collecteur.cs" />
     <Compile Include="Assets\Scripts\ZoneInterdite.cs" />
     <Compile Include="Assets\Scripts\TestRobot.cs" />
+    <Compile Include="Assets\Scripts\EffetParallaxe.cs" />
+    <Compile Include="Assets\Scripts\EffetDegatsJoueur.cs" />
     <Compile Include="Assets\Scripts\PorteSortie.cs" />
     <Compile Include="Assets\Scripts\MouvementRobot.cs" />
   </ItemGroup>

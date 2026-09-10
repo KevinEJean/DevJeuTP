@@ -20,6 +20,8 @@ public class ZoneInterdite : MonoBehaviour
         // TODO 3 : replacer le joueur et afficher un message.
         autre.transform.position = pointDepart.position;
         Debug.Log("Le robot retourne au point de départ.");
+        //EffetDegatsJoueur.Instance.JouerEffetDegat();
+        //Debug.Log("Le robot à pris du dégat.");
     }
 
     /*

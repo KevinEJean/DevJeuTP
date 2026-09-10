@@ -4,6 +4,7 @@ using UnityEngine;
 public class MouvementRobot : MonoBehaviour
 {
     [SerializeField] private float vitesse = 5f;
+    [SerializeField] private Animator anim;
 
     private Rigidbody2D corps;
     private Vector2 direction;
@@ -21,6 +22,9 @@ public class MouvementRobot : MonoBehaviour
 
         // TODO 2 : créer et normaliser le vecteur direction.
         direction = new Vector2(horizontal, vertical).normalized;
+
+        if (direction != Vector2.zero) anim.SetBool("isMoving", true);
+        else anim.SetBool("isMoving", false);
     }
 
     private void FixedUpdate()
