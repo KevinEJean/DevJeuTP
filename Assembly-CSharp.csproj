@@ -61,13 +61,14 @@
     <Analyzer Include="C:\Program Files\Unity\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Collecteur.cs" />
-    <Compile Include="Assets\Scripts\ZoneInterdite.cs" />
-    <Compile Include="Assets\Scripts\TestRobot.cs" />
-    <Compile Include="Assets\Scripts\EffetParallaxe.cs" />
-    <Compile Include="Assets\Scripts\EffetDegatsJoueur.cs" />
-    <Compile Include="Assets\Scripts\PorteSortie.cs" />
-    <Compile Include="Assets\Scripts\MouvementRobot.cs" />
+    <Compile Include="Assets\Scripts\Gamble.cs" />
+    <Compile Include="Assets\Scripts\Ennemy.cs" />
+    <Compile Include="Assets\Scripts\Player.cs" />
+    <Compile Include="Assets\Scripts\Item.cs" />
+    <Compile Include="Assets\Scripts\Coin.cs" />
+    <Compile Include="Assets\Scripts\Door.cs" />
+    <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Scripts\Menu.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
