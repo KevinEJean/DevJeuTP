@@ -13,6 +13,7 @@ public class PorteSortie : MonoBehaviour
 
         // TODO 3 : faire disparaître le joueur.
         Destroy(autre.gameObject);
+        GestionJeu.Instance.DeclencherVictoire();
     }
 
     /*
